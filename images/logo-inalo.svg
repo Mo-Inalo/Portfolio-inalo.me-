@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 236 40" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <defs>
+    <filter id="drop-shadow-filter-0" x="-500%" y="-500%" width="1000%" height="1000%" bx:preset="drop-shadow 1 10 10 0 0 rgba(0,0,0,0.3)">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="0"/>
+      <feOffset dx="10" dy="10"/>
+      <feComponentTransfer result="offsetblur">
+        <feFuncA id="spread-ctrl" type="linear" slope="0"/>
+      </feComponentTransfer>
+      <feFlood flood-color="rgba(0,0,0,0.3)"/>
+      <feComposite in2="offsetblur" operator="in"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style bx:fonts="Aclonica">@import url(https://fonts.googleapis.com/css2?family=Aclonica%3Aital%2Cwght%400%2C400&amp;display=swap);</style>
+  </defs>
+  <text style="fill: rgb(219, 151, 106); font-family: Aclonica; font-size: 28.7px; font-weight: 700; letter-spacing: 1.6px; text-transform: uppercase; word-spacing: 5.2px; white-space: pre; filter: url(#drop-shadow-filter-0);" x="-2.093"><tspan x="36.893" y="30.481" style="fill: rgb(69, 69, 69); font-size: 28.7px; word-spacing: 5.2px; letter-spacing: 1.6px;">Mo</tspan><tspan style="font-size: 28.7px; word-spacing: 5.2px; letter-spacing: 1.6px;"> </tspan><tspan style="fill: rgb(255, 118, 27); font-size: 28.7px; word-spacing: 5.2px; letter-spacing: 1.6px;">Inalo</tspan></text>
+</svg>
