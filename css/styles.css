@@ -88,6 +88,12 @@ h4 {
   margin-bottom: 0.75rem;
   font-family: var(--ff-primary);
 }
+h5 {
+
+  line-height: 1.25;
+  margin-bottom: 0.75rem;
+  font-family: var(--ff-primary);
+}
 h1 {
   font-size: 3rem;
 }
