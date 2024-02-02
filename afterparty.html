@@ -6,12 +6,13 @@ var password;
 
 var pass1 = "afterparty";
 
-password = prompt('Enter Password to Continue!','');
+password = prompt('Enter Password to Continue!');
 
 if (password == pass1)
-    alter("Password Correct! Click OK to Enter!");
+    alert("Password Correct! Click OK to Enter!");
 else
     {
+        alert("Password wrong! You will be redireted to the homepage!");
         window.location="http://www.inalo.me";
     }
 </script>
