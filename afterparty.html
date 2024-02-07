@@ -4,7 +4,7 @@
 
 var password;
 
-var pass1 = "Afterparty";
+var pass1 = "1212";
 
 password = prompt('Enter Password to Continue!');
 
@@ -17,12 +17,13 @@ if (password != pass1)
 
 <style>
     body {
-        background: url("images/background.jpg");
-
+        background: url("images/backgroundlogo.png");
+        background-color: #4d4b4a;
         display: flex;
         align-items: center;
         justify-content: center;
         height: 97vh;
+        background-size: contain;
     }
 
     .box{
@@ -30,6 +31,11 @@ if (password != pass1)
         margin: auto;
     }
 
+    div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
     
 
     video[poster]{
@@ -38,11 +44,12 @@ if (password != pass1)
     } 
 </style>
 
+
+
 <body >
 
-<center>
-    <div class="box" style="background: #c78dd7; padding: 5px; display:inline-block; border-radius: 5px">
-        <div  style="margin-left: auto; margin-right: auto ; margin-top:auto; margin-bottom: auto" >
+    <div >
+        <div >
 
             <video controls poster="/images/saal.JPG">
                 <source src="video/afterparty.MP4" type="video/mp4">
@@ -50,7 +57,7 @@ if (password != pass1)
 
         </div>
     </div>
-</center>
+
 
 
 </body>
