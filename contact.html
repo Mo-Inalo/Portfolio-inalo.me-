@@ -20,10 +20,11 @@
         <div class="nav-header">
           <a href="https://inalo.me/">
           <img  src="./images/logo.png"  href="http://inalo.me/"  class="nav-logo" alt="nav logo" height="50px" width="100px" />
-          <button class="nav-btn" id="nav-btn">
-            <i class="fas fa-bars"></i>            
-          </button>
+
           </a>
+          <button class="nav-btn" id="nav-btn">
+            <i class="fas fa-bars"></i>
+          </button>
         </div>
         <!-- nav links -->
         <ul class="nav-links">
@@ -47,8 +48,8 @@
           
           <li><a href="contact.html">contact</a></li>
         </ul>
-        <ul class="social-icons hero-icons">
-          <li> </li>   <li> </li> 
+        <ul class="social-icons  ">
+
           <li>
             <a
               href="https://www.linkedin.com/in/mohamad-inalo/"
@@ -73,20 +74,11 @@
     </aside>
     <!-- end of sidebar -->
 
-    <!-- ############## -->
-    <!-- ############## -->
-    <!-- ############## -->
-    <!-- ############## -->
-
-    <section class="section single-page">
-      <!-- section title -->
-       
-      <!--end of section title -->
-      <div class="section-center page-info">
+    <div style="margin-top: 25px" class="section-center page-info">
         <!-- contact page-->
         
 
-        <h1>&bull; Keep in Touch &bull;</h1>
+    <h1>&bull; Keep in Touch &bull;</h1>
       <div class="underline">
       </div>
       <div class="icon_wrapper">
@@ -95,78 +87,79 @@
           <path d="M70.865,101.78c0,4.774,3.886,8.657,8.66,8.657c4.774,0,8.657-3.883,8.657-8.657c0-4.773-3.883-8.656-8.657-8.656    C74.751,93.124,70.865,97.006,70.865,101.78z"></path>
         </svg>
       </div>
-      <form action="#" method="post" id="contact_form">
-        <div class="name">
-          <label for="name"></label>
-          <input type="text" placeholder="My name is" name="name" id="name_input" required>
-        </div>
-        <div class="email">
-          <label for="email"></label>
-          <input type="email" placeholder="My e-mail is" name="email" id="email_input" required>
-        </div>
-        <div class="telephone">
-          <label for="name"></label>
-          <input type="text" placeholder="My number is" name="telephone" id="telephone_input" required>
-        </div>
-        <div class="subject">
-          <label for="subject"></label>
-          <select placeholder="Subject line" name="subject" id="subject_input" required>
-            <option disabled hidden selected>Subject line</option>
-            <option>I'd like to start a project</option>
-            <option>I'd like to ask a question</option>
-            <option>I'd like to make a proposal</option>
-          </select>
-        </div>
-        <div class="message">
-          <label for="message"></label>
-          <textarea name="message" placeholder="I'd like to chat about" id="message_input" cols="30" rows="5" required></textarea>
-        </div>
-        <div class="submit">
-          <input type="submit" value="Send Message" id="form_button" />
-        
+
       </div>
 
-        
-      </p>
-    </section>
-    <!-- ############## -->
-    <!-- ############## -->
- 
-    <!-- ############## -->
-    <!-- ############## -->
+      <form action="https://formsubmit.co/mail@inalo.me" method="POST" class="p-md-5" style="max-width: 1000px ; margin-left: auto; margin-right: auto">
+
+        <label>
+          <select name="title" required
+                  onfocus="this.size=8;"
+                  onblur="this.size=0;"
+                  onchange="this.size=1;
+                    this.blur()">
+            <option>Select a Title </option>
+            <option>Mr </option>
+            <option>Mrs</option>
+            <option>Mx</option>
+            <option>Dr</option>
+            <option>Prof</option>
+            <option>Prof Dr</option>
+            <option>Other ..</option>
+          </select>
+        </label>
+
+
+        <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Please insert your given name.." required>
+
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Please insert your sure/last name.." required>
+
+      <label for="tele">Phone</label>
+      <input type="text" id="tele" name="tele" placeholder="Please insert your phone number.." required>
+
+      <label for="email">E-Mail</label>
+      <input type="text" id="email" name="email" placeholder="Please insert your E-Mail .." required>
+
+      <label for="address">Address</label>
+      <input type="text" id="address" name="address" placeholder="Please insert your Address ..">
+
+      <label for="subject">Subject</label>
+      <textarea id="subject" name="subject" placeholder="Please write here your message .. " style="height:200px" required></textarea>
+
+      <input type="submit" value="Submit" style="background: var(--clr-primary-5)">
+
+      </form>
 
    <!-- footer -->
-   <footer class="footer">
-    <!-- social icons -->
-    <ul class="social-icons hero-icons">
-      <li> </li>   
-      <li>
-         
-      </li>
-      
-      <li>
-        <a
-          href="https://www.linkedin.com/in/mohamad-inalo/"
-          target="_blank"
-          class="social-icon"
-        >
-          <i class="fab fa-linkedin"></i>
-        </a>
-      </li>
-      <li>
-        <a
-          href="https://github.com/Mo-Inalo"
-          target="_blank"
-          class="social-icon"
-        >
-          <i class="fab fa-github"></i>
-        </a>
-      </li>
-       
-    </ul>
+      <footer class="footer">
+        <!-- social icons -->
+        <ul class="social-icons  ">
 
-    <p>&copy; <span id="date"></span> Mohamad Inalo | all rights reserved</p>
-  </footer>
+          <li>
+            <a
+                    href="https://www.linkedin.com/in/mohamad-inalo/"
+                    target="_blank"
+                    class="social-icon"
+            >
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+          <li>
+            <a
+                    href="https://github.com/Mo-Inalo"
+                    target="_blank"
+                    class="social-icon"
+            >
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+
+        </ul>
+
+        <p style="text-align: center" >&copy; <span id="date"></span> Mohamad Inalo | all rights reserved</p>
+      </footer>
     <script src="./js/app.js"></script>
   </body>
 </html>

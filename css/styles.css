@@ -317,7 +317,7 @@ Sidebar
   display: grid;
   margin-top: 3rem;
   width: 20rem;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   justify-items: center;
 }
 .social-icon {
@@ -342,7 +342,7 @@ Sidebar
   cursor: pointer;
 }
 .close-btn:hover {
-  color: #ee1414;
+  color: #e38e1fe0;
 }
 /*
 =============== 
